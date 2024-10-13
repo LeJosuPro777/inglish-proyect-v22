@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Word Drift",
+    "description": "A Memory Quest\" Description: Dive into \"Word Drift: A Memory Quest,\" a fun memorama game where players match pairs of words like \"drifting,\" \"pivot,\" and \"momentum.\" Explore unique themes and challenge your memory while expanding your vocabulary. Perfect for all ages!",
+    "target": "/pages/memory/01.html"
+  },
+  {
+    "title": "Speedball",
+    "description": "The Memory Challenge\" Description: Experience \"Speedball: The Memory Challenge,\" a thrilling memorama game where players match words like \"leisurely,\" \"stampede,\" and \"rampage.\" Use your memory to navigate exciting actions and concepts, from \"gesture\" to \"accelerate.\" Challenge yourself to immobilize distractions and score big with each match. Perfect for players of all ages!",
+    "target": "/pages/memory/02.html"
+  },
+  {
+    "title": "Sport Blitz",
+    "description": "A Memory Match\" Description: Get ready for \"Sports Blitz: A Memory Match,\" an exciting memorama game where players match sports-related words like \"foil,\" \"poker,\" and \"touchdown.\" Test your memory with terms from various games, including \"soccer,\" \"umpire,\" and \"inning.\" Strategize your moves and aim for a winning score in this fun challenge for all ages!",
+    "target": "/pages/memory/03.html"
+  },
+  {
+    "title": "Game Set Match",
+    "description": "Welcome to \"Game Set Match,\" a thrilling memorama game where players match sports terms like \"tennis,\" \"rookie,\" and \"quarterback.\" Challenge your memory with exciting concepts such as \"dribble,\" \"volley,\" and \"birdie.\" Test your skills and see if you can become a champion in this fun game for all ages!",
+    "target": "/pages/memory/04.html"
+  },
+  {
+    "title": "Tournament Tactics",
+    "description": "Join \"Tournament Tactics,\" an engaging memorama game where players match terms like \"archery,\" \"penalty,\" and \"marathon.\" Test your memory with strategies from various sports and games, including \"wrestle,\" \"backgammon,\" and \"sacrifice.\" Perfect your skills and outsmart your opponents in this fun challenge for all ages!",
+    "target": "/pages/memory/05.html"
+  },
+  {
+    "title": "Game of Chances",
+    "description": "Welcome to \"Game of Chances,\" a unique memorama experience where players match terms like \"badminton,\" \"solitaire,\" and \"billiards.\" Challenge your memory with words that span leisure and advocacy, including \"roulette,\" \"gratitude,\" and \"petition.\" Explore themes of strategy and fairness in this engaging game suitable for all ages!",
+    "target": "/pages/memory/06.html"
+  },
+  {
+    "title": "Peace and Power",
+    "description": "Enter the world of \"Peace and Power,\" a thought-provoking memorama game where players match significant terms like \"supremacy,\" \"disarmament,\" and \"aggressor.\" Explore themes of conflict and resolution with words such as \"arsenal,\" \"martial,\" and \"propaganda.\" Challenge your memory and delve into the complexities of societal issues in this engaging game for all ages!",
+    "target": "/pages/memory/07.html"
+  },
+  {
+    "title": "Threshold of Deception",
+    "description": "Enter the world of \"Threshold of Deception,\" a thought-provoking memorama game where players match intriguing words like \"deceive,\" \"brethren,\" and \"conscience.\" Navigate through themes of \"suspicion,\" \"apathy,\" and \"havoc\" as you uncover the stories behind each term. Challenge your mind and explore the complexities of human emotion in this captivating game for all ages!",
+    "target": "/pages/memory/08.html"
+  },
+  {
+    "title": "Vigilant Minds",
+    "description": "Welcome to \"Vigilant Minds,\" an insightful memorama game where players match thought-provoking words like \"vigilant,\" \"emancipation,\" and \"accurate.\" Explore themes of leadership and resilience with terms like \"governess,\" \"principal,\" and \"wreckage.\" Challenge your memory and expand your understanding of language in this engaging game for all ages!",
+    "target": "/pages/memory/09.html"
+  },
+  {
+    "title": "Flourish & Flow",
+    "description": "Step into \"Flourish & Flow,\" a dynamic memorama game where players match expressive words like \"nonchalantly,\" \"anxiously,\" and \"bustling.\" Discover the beauty of language with terms like \"crystal,\" \"subdues,\" and \"superfluous.\" Challenge your memory and embrace the richness of vocabulary in this engaging game for all ages!",
+    "target": "/pages/memory/10.html"
+  }
+]

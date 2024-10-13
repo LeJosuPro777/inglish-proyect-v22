@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  content-visibility: auto;
+}
+
+body {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) 5fr;
+  grid-template-rows: 1fr;
+  height: 100dvh;
+  }
+
+.sidebar {
+  grid-area: 1 / 1 / 6 / 2;
+  
+}
+.main-content {
+  grid-area: 1 / 2 / 6 / 6;
+  /* background: linear-gradient(90deg, #0282f7, #1ff); */
+  background: linear-gradient(90deg, #e81c0e, #570904);
+}
+/* 
+@media screen and (max-width:800px) {
+  body {s
+    grid-template-columns: minmax(120px, 1fr) 5fr;
+  }
+} */

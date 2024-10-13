@@ -1,0 +1,22 @@
+.back2me {
+  position: absolute;
+  right: 2.5dvw;
+  top: 3dvh;
+  border: 2.5px solid #000000;
+  border-radius: 50%;
+  width: 3dvw;
+  height: 3dvw;
+  display: grid;
+  place-content: center;
+  transition: background ease-in .56s;
+  font-weight: bolder;
+  &:hover {
+    background: #000;
+    border-color: #ffffff;
+    color: #fff;
+  }
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}

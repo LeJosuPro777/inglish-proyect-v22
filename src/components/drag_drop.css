@@ -1,0 +1,133 @@
+.title-quiz {
+  color: #fff;
+  text-shadow: 5px 2px 2px rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 2rem;
+}
+.drag-game {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.random-words {
+  text-align: center;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.body {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+
+.body1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.colum {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #db1c1c;
+  border-radius: 10px;
+  width: 40%;
+  border: solid rgb(28, 28, 28) 1px;
+}
+
+.colum-1{
+  margin: auto;
+}
+
+.colum-2 {
+  width: 50%;
+  border-top: solid rgb(242, 30, 111) 5px;
+  box-shadow: 5px 8px 20px rgba(250, 125, 142, 0.837);
+}
+
+.drag-and-drop {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 5rem;
+  justify-content: center;
+}
+
+.dd-zone{
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-gap: 16px;
+  height: 100%;
+  padding-bottom: 4dvh;
+}
+
+.dd-zone1 {
+  grid-gap: 16px;
+  height: 100%;
+  flex-direction: column;
+  margin: auto;
+  width: min-content;
+}
+
+.question-zone {
+  margin-top: 2rem;
+}
+
+.dd-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: #fff;
+  width: 5rem;
+  height: 3rem;
+  border-radius: 5px;
+  transition: background-color 0.2s ease; 
+}
+
+.dd-element:hover {
+  cursor: grab;
+  background-color: #f3f3f3; 
+}
+
+.dd-elementQ {
+  position: relative; 
+  min-height: 3rem; 
+  background-color: #f9f9f9;
+  border: 1px solid #bbb; 
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  padding: 1rem;
+}
+
+.dropped-word {
+  font-weight: 800;
+  color: #a526d7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: grab;
+  z-index: 10; 
+}
+
+.dropped-word:hover {
+  cursor: pointer;
+}
+
+.dd-element.active {
+  background-color: #dcdcdc; 
+  border: 2px solid #a526d7;
+}
+
+p{
+  font-weight: 800;
+  color: #000000;
+}
+

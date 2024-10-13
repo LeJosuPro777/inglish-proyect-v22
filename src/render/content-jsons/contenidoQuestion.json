@@ -1,0 +1,64 @@
+{
+  "uno": [
+    {
+      "id": 1,
+      "body": "1. _________ name is Robert.",
+      "wordAssigned": null,
+      "correctAnswerId": 10
+    },
+    {
+      "id": 2,
+      "body": "2. They _________ from Spain",
+      "wordAssigned": null,
+      "correctAnswerId": 8
+    },
+    {
+      "id": 3,
+      "body": "3. _________ are you from?",
+      "wordAssigned": null,
+      "correctAnswerId": 2
+    },
+    {
+      "id": 4,
+      "body": "4. What do you do? I´m _________ student.",
+      "wordAssigned": null,
+      "correctAnswerId": 6
+    },
+    {
+      "id": 5,
+      "body": "5. Peter _________ at seven o´clock",
+      "wordAssigned": null,
+      "correctAnswerId": 9
+    },
+    {
+      "id": 6,
+      "body": "6. _________ you like this DVD?",
+      "wordAssigned": null,
+      "correctAnswerId": 5
+    },
+    {
+      "id": 7,
+      "body": "7. We _________ live in a flat.",
+      "wordAssigned": null,
+      "correctAnswerId": 7
+    },
+    {
+      "id": 8,
+      "body": "8. Wednesday, Thursday, Friday, _________ ",
+      "wordAssigned": null,
+      "correctAnswerId": 4
+    },
+    {
+      "id": 9,
+      "body": "9. Does he _________ tennis?",
+      "wordAssigned": null,
+      "correctAnswerId": 3
+    },
+    {
+      "id": 10,
+      "body": "10. Have you _________ a car?",
+      "wordAssigned": null,
+      "correctAnswerId": 1
+    }
+  ]
+}
