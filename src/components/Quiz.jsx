@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './drag_drop.css'
+import '../styles/components/drag_drop.css'
 export function Quiz  ({quesitons, answers}) {
 
   const [questions, setQuestions] = useState(quesitons);
@@ -109,7 +109,7 @@ export function Quiz  ({quesitons, answers}) {
                 <p className="body1">{item.body}</p>
                 
                 {item.wordAssigned ? (
-                  <div>
+                  <div className="answers">
                   <p>{item.wordAssigned.body}</p>
                   <button onClick={(evt) => returnToWords(evt, item.id)}>Return</button>
                 </div>

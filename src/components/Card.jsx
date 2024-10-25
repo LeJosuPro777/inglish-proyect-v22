@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card.css'; // Add your own styles
+import '../styles/components/Card.css'; // Add your own styles
 
 const Card = ({ value, isFlipped, onClick }) => {
     return (

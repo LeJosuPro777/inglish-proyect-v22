@@ -4,7 +4,7 @@ export function Index() {
     <>
       <article>
         <header>
-          <h1 className="title">English Learing Games</h1>
+          <h1 className="title">English Learning Games</h1>
           <h2 className="subtitle">Diversión en Inglés</h2>
         </header>
         <p>

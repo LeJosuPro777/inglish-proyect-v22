@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
-import renderJSON from './renderJSON';
+import renderJSON from './functions/renderJSON';
 import { Back2me } from '../components/Back2me';
 import contenidoQuestion from "./content-jsons/contenidoQuestion.json"
 import contenidoAnswers from "./content-jsons/contenidoRespuestas.json"

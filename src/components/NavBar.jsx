@@ -1,6 +1,6 @@
 import "../styles/components/Navbar.css"
 import {Back2me} from "../components/Back2me"
-import logoTeam from "../../layout/PapusProLogo.jpeg"
+import logoTeam from "../../public/PapusProLogo.jpeg"
 export function NavBar() {
   const jsonLink = {
     content: "Memory",
@@ -20,9 +20,6 @@ export function NavBar() {
         <ul className="links">
           <a href="/pages/Memory.html">
             <li>Memory</li>
-          </a>
-          <a href="/pages/Crossword.html">
-            <li>Crossword</li>
           </a>
           <a href="/pages/Quiz.html">
             <li>Quiz</li>

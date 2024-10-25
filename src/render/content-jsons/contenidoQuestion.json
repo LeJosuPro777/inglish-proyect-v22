@@ -20,8 +20,8 @@
     },
     {
       "id": 4,
-      "body": "4. What do you do? I´m _________ student.",
-      "wordAssigned": null,
+      "body": "4. What do you do? I´m _________ student",
+      " wordAssigned": null,
       "correctAnswerId": 6
     },
     {
@@ -44,21 +44,579 @@
     },
     {
       "id": 8,
-      "body": "8. Wednesday, Thursday, Friday, _________ ",
+      "body": "'8. Wednesday, Thursday, Friday, _________ ",
       "wordAssigned": null,
       "correctAnswerId": 4
     },
     {
       "id": 9,
-      "body": "9. Does he _________ tennis?",
+      "body": "'9. Does he _________ tennis?",
       "wordAssigned": null,
       "correctAnswerId": 3
     },
     {
       "id": 10,
-      "body": "10. Have you _________ a car?",
+      " body": "'10. Have you _________ a car?",
       "wordAssigned": null,
       "correctAnswerId": 1
+    }
+  ],
+  "dos": [
+    {
+      "id": 1,
+      "body": "We don’t have _____ butter.",
+      "wordAssigned": null,
+      "correctAnswerId": 9
+    },
+    {
+      "id": 2,
+      "body": "1. _____ some money here",
+      "wordAssigned": null,
+      "correctAnswerId": 6
+    },
+    {
+      "id": 3,
+      "body": "3. We _____ got a garage.",
+      "wordAssigned": null,
+      "correctAnswerId": 4
+    },
+    {
+      "id": 4,
+      "body": "4. Those shoes are very _____.",
+      "wordAssigned": null,
+      "correctAnswerId": 10
+    },
+    {
+      "id": 5,
+      "body": "5. Have you got a pen?",
+      "wordAssigned": null,
+      "correctAnswerId": 8
+    },
+    {
+      "id": 6,
+      "body": "6. It is a busy, _____ city.",
+      "wordAssigned": null,
+      "correctAnswerId": 2
+    },
+    {
+      "id": 7,
+      "body": "7. They _____ at home yesterday.",
+      "wordAssigned": null,
+      "correctAnswerId": 1
+    },
+    {
+      "id": 8,
+      "body": "8. I _____ there for a long time.",
+      "wordAssigned": null,
+      "correctAnswerId": 7
+    },
+    {
+      "id": 9,
+      "body": "9. He didn’t _____ glasses",
+      "wordAssigned": null,
+      "correctAnswerId": 5
+    },
+    {
+      "id": 10,
+      "body": "10. The restaurant was _____ busy.",
+      "wordAssigned": null,
+      "correctAnswerId": 3
+    }
+  ],
+  "tres": [
+    {
+      "id": 1,
+      "body": "1. Do you like the red _____?",
+      "wordAssigned": null,
+      "correctAnswerId": 3
+    },
+    {
+      "id": 2,
+      "body": "2. He _____ to Brazil on business.",
+      "wordAssigned": null,
+      "correctAnswerId": 5
+    },
+    {
+      "id": 3,
+      "body": "3. Yesterday was the _____ of April",
+      "wordAssigned": null,
+      "correctAnswerId": 9
+    },
+    {
+      "id": 4,
+      "body": "4. She’s got _____ hair",
+      "wordAssigned": null,
+      "correctAnswerId": 7
+    },
+    {
+      "id": 5,
+      "body": "5. I _____ play football at the weekend",
+      "wordAssigned": null,
+      "correctAnswerId": 10
+    },
+    {
+      "id": 6,
+      "body": "6. I _____ in an armchair at the moment",
+      "wordAssigned": null,
+      "correctAnswerId": 1
+    },
+    {
+      "id": 7,
+      "body": "7. My brother is older _____ me",
+      "wordAssigned": null,
+      "correctAnswerId": 6
+    },
+    {
+      "id": 8,
+      "body": "8. Their car is _____ biggest on the road",
+      "wordAssigned": null,
+      "correctAnswerId": 8
+    },
+    {
+      "id": 9,
+      "body": "9. It’s the _____ interesting of his films.",
+      "wordAssigned": null,
+      "correctAnswerId": 8
+    },
+    {
+      "id": 10,
+      "body": "10. The phone’s ringing: _____ answer it.",
+      "wordAssigned": null,
+      "correctAnswerId": 2
+    }
+  ],
+  "cuatro": [
+    {
+      "id": 1,
+      "body": "1. Do you _____ classical or rock music? ",
+      "wordAssigned": null,
+      "correctAnswerId": 6
+    },
+    {
+      "id": 2,
+      "body": "2. He has _____ breakfast.",
+      "wordAssigned": null,
+      "correctAnswerId": 7
+    },
+    {
+      "id": 3,
+      "body": "3. The _____ have seen it before",
+      "wordAssigned": null,
+      "correctAnswerId": 8
+    },
+    {
+      "id": 4,
+      "body": "4. I’ve never met an actor _____.",
+      "wordAssigned": null,
+      "correctAnswerId": 9
+    },
+    {
+      "id": 5,
+      "body": "5. _____ is very good exercise.",
+      "wordAssigned": null,
+      "correctAnswerId": 10
+    },
+    {
+      "id": 6,
+      "body": "6. Have you _____ been on a winter sports holiday?",
+      "wordAssigned": null,
+      "correctAnswerId": 5
+    },
+    {
+      "id": 7,
+      "body": "7. I can’t _____ another language. ",
+      "wordAssigned": null,
+      "correctAnswerId": 4
+    },
+    {
+      "id": 8,
+      "body": "8. They _____ pay for the tickets.",
+      "wordAssigned": null,
+      "correctAnswerId": 3
+    },
+    {
+      "id": 9,
+      "body": "9. _____ old is their car?",
+      "wordAssigned": null,
+      "correctAnswerId": 2
+    },
+    {
+      "id": 10,
+      "body": "10. Are you _____ for one or two weeks?",
+      "wordAssigned": null,
+      "correctAnswerId": 1
+    }
+  ],
+  "cinco": [
+    {
+      "id": 1,
+      "body": "1. Stephen _____ to visit his parents.",
+      "wordAssigned": null,
+      "correctAnswerId": 6
+    },
+    {
+      "id": 2,
+      "body": "2. I don’t _____ getting up early.",
+      "wordAssigned": null,
+      "correctAnswerId": 3
+    },
+    {
+      "id": 3,
+      "body": "3. We _____ like to see the mountains. ",
+      "wordAssigned": null,
+      "correctAnswerId": 9
+    },
+    {
+      "id": 4,
+      "body": "4. They _____ ever check their emails.",
+      "wordAssigned": null,
+      "correctAnswerId": 4
+    },
+    {
+      "id": 5,
+      "body": "5. They won’t come, _____ they?",
+      "wordAssigned": null,
+      "correctAnswerId": 1
+    },
+    {
+      "id": 6,
+      "body": "6. He _____ know how to spell it.",
+      "wordAssigned": null,
+      "correctAnswerId": 10
+    },
+    {
+      "id": 7,
+      "body": "Carla _____ to the radio all morning.",
+      "wordAssigned": null,
+      "correctAnswerId": 9
+    },
+    {
+      "id": 8,
+      "body": "8. They _____ come to the cinema with us.",
+      "wordAssigned": null,
+      "correctAnswerId": 2
+    },
+    {
+      "id": 9,
+      "body": "9. I like this song. _____ do I",
+      "wordAssigned": null,
+      "correctAnswerId": 7
+    },
+    {
+      "id": 10,
+      "body": "10. We _____ them at eight o’clock.",
+      "wordAssigned": null,
+      "correctAnswerId": 5
+    }
+  ],
+  "seis": [
+    {
+      "id": 1,
+      "body": "1. They are going _____ in America next month.",
+      "wordAssigned": null,
+      "correctAnswerId": 2
+    },
+    {
+      "id": 2,
+      "body": "2. This is the cinema _____ we saw the film.",
+      "wordAssigned": null,
+      "correctAnswerId": 7
+    },
+    {
+      "id": 3,
+      "body": "3. Have you ever _____ in a jazz band?",
+      "wordAssigned": null,
+      "correctAnswerId": 10
+    },
+    {
+      "id": 4,
+      "body": "4. I’m _____ when I’m with you.",
+      "wordAssigned": null,
+      "correctAnswerId": 9
+    },
+    {
+      "id": 5,
+      "body": "5. This is _____ than I thought.",
+      "wordAssigned": null,
+      "correctAnswerId": 1
+    },
+    {
+      "id": 6,
+      "body": "6. Can you tell me the way _____?",
+      "wordAssigned": null,
+      "correctAnswerId": 6
+    },
+    {
+      "id": 7,
+      "body": "7. Do you know what _____? ",
+      "wordAssigned": null,
+      "correctAnswerId": 8
+    },
+    {
+      "id": 8,
+      "body": "8. Were you _____ to open the door?",
+      "wordAssigned": null,
+      "correctAnswerId": 3
+    },
+    {
+      "id": 9,
+      "body": "9. Everybody _____ wear a seat belt in the car",
+      "wordAssigned": null,
+      "correctAnswerId": 5
+    },
+    {
+      "id": 10,
+      "body": "10. Tom has lived in this town _____ three years.",
+      "wordAssigned": null,
+      "correctAnswerId": 4
+    }
+  ],
+  "siete": [
+    {
+      "id": 1,
+      "body": "1. We _____ work in that factory. ",
+      "wordAssigned": null,
+      "correctAnswerId": 2
+    },
+    {
+      "id": 2,
+      "body": "2. I think it _____ be sunny tomorrow. ",
+      "wordAssigned": null,
+      "correctAnswerId": 5
+    },
+    {
+      "id": 3,
+      "body": "3. He _____ like his brother",
+      "wordAssigned": null,
+      "correctAnswerId": 8
+    },
+    {
+      "id": 4,
+      "body": "4. _____ does your boyfriend look like?",
+      "wordAssigned": null,
+      "correctAnswerId": 3
+    },
+    {
+      "id": 5,
+      "body": "5. I’ve got _____ many problems",
+      "wordAssigned": null,
+      "correctAnswerId": 4
+    },
+    {
+      "id": 6,
+      "body": "6. If we get up in time, _____ the train",
+      "wordAssigned": null,
+      "correctAnswerId": 9
+    },
+    {
+      "id": 7,
+      "body": "7. They _____ to go to France for a year",
+      "wordAssigned": null,
+      "correctAnswerId": 10
+    },
+    {
+      "id": 8,
+      "body": "8. I’m working _____ to pass my exam. ",
+      "wordAssigned": null,
+      "correctAnswerId": 7
+    },
+    {
+      "id": 9,
+      "body": "9. I’m writing _____ ask you to explain. ",
+      "wordAssigned": null,
+      "correctAnswerId": 1
+    },
+    {
+      "id": 10,
+      "body": "10. He said that most problems _____ by teenagers.",
+      "wordAssigned": null,
+      "correctAnswerId": 6
+    }
+  ],
+  "ocho": [
+    {
+      "id": 1,
+      "body": "1. What _____ to do at the weekend?",
+      "wordAssigned": null,
+      "correctAnswerId": 1
+    },
+    {
+      "id": 2,
+      "body": "2. Football _____ in most countries. ",
+      "wordAssigned": null,
+      "correctAnswerId": 2
+    },
+    {
+      "id": 3,
+      "body": "3.Who was _____ the door?",
+      "wordAssigned": null,
+      "correctAnswerId": 3
+    },
+    {
+      "id": 4,
+      "body": "4. We _____ lunch when you telephoned. ",
+      "wordAssigned": null,
+      "correctAnswerId": 4
+    },
+    {
+      "id": 5,
+      "body": "5. Your work is _____ better.",
+      "wordAssigned": null,
+      "correctAnswerId": 5
+    },
+    {
+      "id": 6,
+      "body": "6. She could play the piano _____ she could walk. ",
+      "wordAssigned": null,
+      "correctAnswerId": 6
+    },
+    {
+      "id": 7,
+      "body": "7. The train was cancelled, so we _____. ",
+      "wordAssigned": null,
+      "correctAnswerId": 7
+    },
+    {
+      "id": 8,
+      "body": "8. The problem was _____ solved",
+      "wordAssigned": null,
+      "correctAnswerId": 8
+    },
+    {
+      "id": 9,
+      "body": "9. It was a difficult journey, but I _____ get home. ",
+      "wordAssigned": null,
+      "correctAnswerId": 9
+    },
+    {
+      "id": 10,
+      "body": "10. We had not _____ heard the news. ",
+      "wordAssigned": null,
+      "correctAnswerId": 10
+    }
+  ],
+  "nueve": [
+    {
+      "id": 1,
+      "body": "1. We arrived at the station, but the bus _____ earlier. ",
+      "wordAssigned": null,
+      "correctAnswerId": 10
+    },
+    {
+      "id": 2,
+      "body": "2. We can _____ walk or go by car. ",
+      "wordAssigned": null,
+      "correctAnswerId": 9
+    },
+    {
+      "id": 3,
+      "body": "3. If I _____ enough money, I’d buy a new car. ",
+      "wordAssigned": null,
+      "correctAnswerId": 8
+    },
+    {
+      "id": 4,
+      "body": "4. It _____ correctly",
+      "wordAssigned": null,
+      "correctAnswerId": 7
+    },
+    {
+      "id": 5,
+      "body": "5. The accident wouldn’t have happened if you had been more _____. ",
+      "wordAssigned": null,
+      "correctAnswerId": 6
+    },
+    {
+      "id": 6,
+      "body": "6. It _____ be possible sometime in the future. ",
+      "wordAssigned": null,
+      "correctAnswerId": 5
+    },
+    {
+      "id": 7,
+      "body": "7. Schools then _____ having more children in the class. ",
+      "wordAssigned": null,
+      "correctAnswerId": 4
+    },
+    {
+      "id": 8,
+      "body": "8. We _____ to go to work at six in the morning",
+      "wordAssigned": null,
+      "correctAnswerId": 3
+    },
+    {
+      "id": 9,
+      "body": "9. They _____ an old photograph of the place",
+      "wordAssigned": null,
+      "correctAnswerId": 2
+    },
+    {
+      "id": 10,
+      "body": "10. I _____ I had been able to meet her.",
+      "wordAssigned": null,
+      "correctAnswerId": 1
+    }
+  ],
+  "diez": [
+    {
+      "id": 1,
+      "body": "1. We’ll have taken our exams _____ this time next month.",
+      "wordAssigned": null,
+      "correctAnswerId": 2
+    },
+    {
+      "id": 2,
+      "body": "2. I will do badly in my work, _____ try harder",
+      "wordAssigned": null,
+      "correctAnswerId": 1
+    },
+    {
+      "id": 3,
+      "body": "3. I _____ wasted my time when I was at university.",
+      "wordAssigned": null,
+      "correctAnswerId": 6
+    },
+    {
+      "id": 4,
+      "body": "4. This is going to be my chance to _____ any difficulties",
+      "wordAssigned": null,
+      "correctAnswerId": 8
+    },
+    {
+      "id": 5,
+      "body": "5. It was difficult at first, but I soon _____ it.",
+      "wordAssigned": null,
+      "correctAnswerId": 10
+    },
+    {
+      "id": 6,
+      "body": "6. How did you manage to cook _____ a good meal? ",
+      "wordAssigned": null,
+      "correctAnswerId": 3
+    },
+    {
+      "id": 7,
+      "body": "7. The solution had been found, _____ we hadn’t realised it.",
+      "wordAssigned": null,
+      "correctAnswerId": 9
+    },
+    {
+      "id": 8,
+      "body": "8. She _____ what I had been doing for all that time.",
+      "wordAssigned": null,
+      "correctAnswerId": 8
+    },
+    {
+      "id": 9,
+      "body": "9. They _____ heard us coming, we were making a lot of noise",
+      "wordAssigned": null,
+      "correctAnswerId": 7
+    },
+    {
+      "id": 10,
+      "body": "10.He _____ to help me with the decorating.",
+      "wordAssigned": null,
+      "correctAnswerId": 5
     }
   ]
 }

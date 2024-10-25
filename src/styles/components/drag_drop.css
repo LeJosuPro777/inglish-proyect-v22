@@ -2,7 +2,8 @@
   color: #fff;
   text-shadow: 5px 2px 2px rgb(0, 0, 0);
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .drag-game {
   display: flex;
@@ -33,38 +34,37 @@
   text-align: center;
   background-color: #db1c1c;
   border-radius: 10px;
-  width: 40%;
+  width: 20%;
   border: solid rgb(28, 28, 28) 1px;
 }
 
 .colum-1{
-  margin: auto;
 }
 
 .colum-2 {
-  width: 50%;
+  width: 30%;
   border-top: solid rgb(242, 30, 111) 5px;
   box-shadow: 5px 8px 20px rgba(250, 125, 142, 0.837);
+  margin-bottom: 2em;
 }
 
 .drag-and-drop {
   display: flex;
   width: 100%;
   height: 100%;
-  padding: 5rem;
   justify-content: center;
+  align-items: center;
+  gap: 5dvw;
 }
 
 .dd-zone{
   flex-direction: row;
   flex-wrap: wrap;
-  grid-gap: 16px;
   height: 100%;
-  padding-bottom: 4dvh;
+  padding-bottom: 2em;
 }
 
 .dd-zone1 {
-  grid-gap: 16px;
   height: 100%;
   flex-direction: column;
   margin: auto;
@@ -72,7 +72,7 @@
 }
 
 .question-zone {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .dd-element {
@@ -83,8 +83,8 @@
   margin: auto;
   margin-top: 1rem;
   background-color: #fff;
-  width: 5rem;
-  height: 3rem;
+  width: 6em;
+  height: 2rem;
   border-radius: 5px;
   transition: background-color 0.2s ease; 
 }
@@ -96,12 +96,11 @@
 
 .dd-elementQ {
   position: relative; 
-  min-height: 3rem; 
-  background-color: #f9f9f9;
+    background-color: #f9f9f9;
   border: 1px solid #bbb; 
   border-radius: 5px;
   transition: background-color 0.2s ease;
-  padding: 1rem;
+  padding: .25rem 0rem;
 }
 
 .dropped-word {
@@ -111,7 +110,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); 
-  padding: 0.5rem;
   border-radius: 5px;
   cursor: grab;
   z-index: 10; 
@@ -129,5 +127,12 @@
 p{
   font-weight: 800;
   color: #000000;
+  display: flex;
+
+}
+.answers {
+  display: flex;
+  place-content: center;
+  gap: 2em;
 }
 

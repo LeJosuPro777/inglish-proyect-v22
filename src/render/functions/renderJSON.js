@@ -1,5 +1,5 @@
 export default function renderJSON (JSONContent) {
-  if (location.href.includes("01"))
+    if (location.href.includes("01"))
     return JSONContent.uno;
   if (location.href.includes("02"))
     return JSONContent.dos;

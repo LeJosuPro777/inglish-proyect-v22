@@ -20,6 +20,7 @@ body {
   grid-area: 1 / 2 / 6 / 6;
   /* background: linear-gradient(90deg, #0282f7, #1ff); */
   background: linear-gradient(90deg, #e81c0e, #570904);
+  overflow-y: auto;
 }
 /* 
 @media screen and (max-width:800px) {
