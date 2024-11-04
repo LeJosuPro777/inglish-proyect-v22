@@ -26,16 +26,16 @@ export function App() {
             <div className="links">
             <Link className="link" to={"/memory"}>Memory</Link>
             <Link className="link" to={"/quiz"}>Quiz</Link>
-            <Link className="link" to={"/"}>Home</Link>
+            <Link className="link" to={"/hangman"}>Hangman</Link>
             </div>
           </nav>
         </div>
         <div className="main-content">
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/memory" element={<></>} />
-          <Route path="/quiz" element={<></>} />
-          <Route path="/" element={<></>} />
+          <Route path="/memory" element={<>Memory Game</>} />
+          <Route path="/quiz" element={<>Quiz Game</>} />
+          <Route path="/hangman" element={<>Hangman</>} />
         </Routes>
         </div>
       </Router>
