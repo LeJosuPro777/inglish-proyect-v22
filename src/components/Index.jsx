@@ -1,4 +1,3 @@
-import "../styles/components/Index.css";
 export function Index() {
   return (
     <>

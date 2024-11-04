@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  content-visibility: auto;
 }
 
-body {
+.container {
   display: grid;
   grid-template-columns: minmax(180px, 1fr) 5fr;
   grid-template-rows: 1fr;
   height: 100dvh;
+  width: 100dvh;
   }
 
 .sidebar {
