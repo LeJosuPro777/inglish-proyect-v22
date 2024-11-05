@@ -18,7 +18,7 @@ export function App() {
               alt="team  logo made by santi"
             />
             </Link>
-            <Link to={"team-members"}>
+            <Link to={"/team-members"}>
               <h2>Papus Pro ツ</h2>
             </Link>
           </header>
@@ -37,34 +37,10 @@ export function App() {
           <Route path="/" element={<Index />} />
           <Route path="/memory" element={<GameContent contenido={memoramaContentJSON}/>} />
           <Route path="/quiz" element={<GameContent contenido={quizContentJSON}/>} />
-          <Route path="/hangman" element={<>Hangman</>} />
+          <Route path="/hangman" element={<>En proceso de construccion 🤓</>} />
         </Routes>
         </div>
       </Router>
     </>
   );
 }
-
-// <>
-//   <header>
-//   <img className="team-logo" src={logoTeam} alt="team  logo made by santi" />
-//   <a href="/">
-//     <h2>Papus Pro ツ</h2>
-//   </a>
-//   </header>
-
-//   <nav className="bar-nav">
-//     <h2>Games</h2>
-//     <ul className="links">
-//       <a href="/pages/Memory.html">
-//         <li>Memory</li>
-//       </a>
-//       <a href="/pages/Quiz.html">
-//         <li>Quiz</li>
-//       </a>
-//     </ul>
-//   </nav>
-//   <footer>
-//     <button>Iniciar SESION</button>
-//   </footer>
-// </>
