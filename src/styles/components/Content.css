@@ -1,0 +1,35 @@
+.main-content {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  padding: 4%;
+  justify-content: center;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.title-content {
+  font-size: 2.25rem;
+  color: #eee;
+  text-shadow: 2px 2px 2px #000;
+}
+.content {
+  display: flex;
+  flex-flow: column;
+  width: 35dvw;
+}
+.text-content {
+  font-size: 1.25rem;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.image-preview {
+  border-radius: 25px;
+  width: 80%;
+  align-self: center;
+  margin-bottom: 3rem;
+}

@@ -2,7 +2,9 @@ import "../styles/components/App.css";
 import logoTeam from "../../public/PapusProLogo.jpeg";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Index } from "./Index";
-
+import { GameContent } from "./GameContent";
+import memoramaContentJSON from "../render/content-jsons/memo-links.json"
+import quizContentJSON from "../render/content-jsons/quiz-links.json"
 export function App() {
   return (
     <>
@@ -33,8 +35,8 @@ export function App() {
         <div className="main-content">
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/memory" element={<>Memory Game</>} />
-          <Route path="/quiz" element={<>Quiz Game</>} />
+          <Route path="/memory" element={<GameContent contenido={memoramaContentJSON}/>} />
+          <Route path="/quiz" element={<GameContent contenido={quizContentJSON}/>} />
           <Route path="/hangman" element={<>Hangman</>} />
         </Routes>
         </div>
