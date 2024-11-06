@@ -7,6 +7,9 @@ import memoramaContentJSON from "../render/content-jsons/memo-links.json"
 import quizContentJSON from "../render/content-jsons/quiz-links.json"
 import memoryContent from "../render/content-jsons/memoramaContent.json"
 import MemoryGame from "./MemoryGame";
+if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
+  window.location.href  = "https://inglish-proyect-v22.vercel.app"
+}
 export function App() {
   return (
     <>
@@ -20,7 +23,7 @@ export function App() {
               alt="team  logo made by santi"
             />
             </Link>
-            <Link to={"/team-members"}>
+            <Link to={"/papus-pros-members"}>
               <h2>Papus Pro ツ</h2>
             </Link>
           </header>
