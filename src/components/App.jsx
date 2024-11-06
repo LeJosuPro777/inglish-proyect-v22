@@ -5,6 +5,8 @@ import { Index } from "./Index";
 import { GameContent } from "./GameContent";
 import memoramaContentJSON from "../render/content-jsons/memo-links.json"
 import quizContentJSON from "../render/content-jsons/quiz-links.json"
+import memoryContent from "../render/content-jsons/memoramaContent.json"
+import MemoryGame from "./MemoryGame";
 export function App() {
   return (
     <>
@@ -38,6 +40,8 @@ export function App() {
           <Route path="/memory" element={<GameContent contenido={memoramaContentJSON}/>} />
           <Route path="/quiz" element={<GameContent contenido={quizContentJSON}/>} />
           <Route path="/hangman" element={<>En proceso de construccion 🤓</>} />
+          <Route path="/memory/:id" element={<MemoryGame json={memoryContent}/>}/>
+          <Route path="/quiz/:id" element/>
         </Routes>
         </div>
       </Router>
