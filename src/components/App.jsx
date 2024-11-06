@@ -7,11 +7,6 @@ import memoramaContentJSON from "../render/content-jsons/memo-links.json"
 import quizContentJSON from "../render/content-jsons/quiz-links.json"
 import memoryContent from "../render/content-jsons/memoramaContent.json"
 import MemoryGame from "./MemoryGame";
-
-window.addEventListener("load", (event) => {
-  window.location.href  = "https://inglish-proyect-v22.vercel.app"
-
-});
 export function App() {
   return (
     <>
