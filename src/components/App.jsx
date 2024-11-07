@@ -1,11 +1,11 @@
-import "../styles/components/App.css";
+import "../styles/App.css";
 import logoTeam from "../../public/PapusProLogo.jpeg";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Index } from "./Index";
 import { GameContent } from "./GameContent";
-import memoramaContentJSON from "../render/content-jsons/memo-links.json"
-import quizContentJSON from "../render/content-jsons/quiz-links.json"
-import memoryContent from "../render/content-jsons/memoramaContent.json"
+import memoramaContentJSON from "../content-jsons/memo-links.json"
+import quizContentJSON from "../content-jsons/quiz-links.json"
+import memoryContent from "../content-jsons/memoramaContent.json"
 import MemoryGame from "./MemoryGame";
 export function App() {
   return (

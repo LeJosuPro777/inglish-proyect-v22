@@ -45,7 +45,7 @@ export function MemoryGame({ json }) {
   }, [flippedIndices, cards]);
 
   return (
-    <>
+    <div className="memoryGame">
       {cards.map((value, index) => (
         <Card
           key={index}
@@ -57,7 +57,7 @@ export function MemoryGame({ json }) {
           onClick={() => handleCardClick(index)}
         />
       ))}
-    </>
+    </div>
   );
 }
 

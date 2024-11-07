@@ -18,7 +18,9 @@
 .content {
   display: flex;
   flex-flow: column;
+  justify-content: center;
   width: 35dvw;
+  height: 80dvh;
 }
 .text-content {
   font-size: 1.25rem;
@@ -29,7 +31,8 @@ a {
 }
 .image-preview {
   border-radius: 25px;
-  width: 80%;
+  width: 30dvw;
+  height: 30dvh;
   align-self: center;
   margin-bottom: 3rem;
 }

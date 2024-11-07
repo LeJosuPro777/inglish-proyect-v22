@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "../styles/components/Content.css"
+import "../styles/Content.css"
 export const Content = ({title, content, image, id}) => {
   return (
     <>

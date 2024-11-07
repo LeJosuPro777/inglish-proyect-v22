@@ -1,16 +1,15 @@
-.game {
+.memoryGame {
   display: grid;
-  grid-template-columns: repeat(4, 100px);
-  gap: 10px;
-  place-content: center;
+  grid-template-columns: repeat(5, 100px);
   width: 100%;
   height: 100%;
+  gap: 70px;
+  place-content: center;
 }
-
 .card {
-  width: 100px;
-  height: 100px;
-  background-color: #4c87af;
+  width: 150px;
+  height: 150px;
+  background-color: #4e0e0f;
   color: white;
   display: flex;
   align-items: center;
@@ -19,10 +18,11 @@
   cursor: pointer;
   border-radius: 8px;
   user-select: none;
+  border: 2px solid #000;
   transition: background-color 0.3s;
 }
 
 .card:hover {
-  background-color: #45a049;
+  background-color: #111;
   border: 2px solid #fff;
 }

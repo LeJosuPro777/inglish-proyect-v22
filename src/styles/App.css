@@ -21,7 +21,7 @@
 }
 .main-content {
   /* background: linear-gradient(90deg, #e81c0e, #570904); */
-  background: linear-gradient(90deg, #000, #222);
+  background: linear-gradient(90deg, #000, #111);
   overflow-y: auto;
     display: flex;
   flex-flow: row wrap;
