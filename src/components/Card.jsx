@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Card.css'; 
 
-const Card = ({ value, isFlipped, onClick }) => {
+export const Card = ({ value, isFlipped, onClick }) => {
     return (
         <div className="card" onClick={onClick}>
             {isFlipped ? value : "?"}
@@ -9,4 +9,4 @@ const Card = ({ value, isFlipped, onClick }) => {
     );
 };
 
-export default Card;
+

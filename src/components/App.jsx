@@ -1,13 +1,18 @@
 import "../styles/App.css";
 import logoTeam from "../../public/PapusProLogo.jpeg";
+
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Index } from "./Index";
 import { GameContent } from "./GameContent";
+import {MemoryGame} from "./MemoryGame";
+
 import memoramaContentJSON from "../content-jsons/memo-links.json"
 import quizContentJSON from "../content-jsons/quiz-links.json"
 import memoryContent from "../content-jsons/memoramaContent.json"
-import MemoryGame from "./MemoryGame";
-export function App() {
+import { PapusPros } from "./PapusPros";
+import { BackToMe } from "./BackToMe";
+
+export const App = () => {
   return (
     <>
       <Router>
@@ -37,11 +42,11 @@ export function App() {
         <div className="main-content">
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/papus-pros-members" element={<PapusPros />}/>
           <Route path="/memory" element={<GameContent contenido={memoramaContentJSON}/>} />
-          <Route path="/quiz" element={<GameContent contenido={quizContentJSON}/>} />
-          <Route path="/hangman" element={<>En proceso de construccion 🤓</>} />
+          {/* <Route path="/quiz" element={<GameContent contenido={quizContentJSON}/>} /> */}
+          <Route path="/hangman" element={<BackToMe />} />
           <Route path="/memory/:id" element={<MemoryGame json={memoryContent}/>}/>
-          <Route path="/quiz/:id" element/>
         </Routes>
         </div>
       </Router>

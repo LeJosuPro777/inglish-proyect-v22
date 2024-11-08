@@ -1,6 +1,6 @@
 import { useState } from "react";
 import '../styles/components/drag_drop.css'
-export function Quiz  ({quesitons, answers}) {
+export const Quiz = ({quesitons, answers}) => {
 
   const [questions, setQuestions] = useState(quesitons);
 

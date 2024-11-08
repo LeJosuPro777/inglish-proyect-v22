@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Card from "./Card";
+import {Card} from "./Card";
 import { useParams } from "react-router-dom";
 
-export function MemoryGame({ json }) {
+export const MemoryGame = ({ games }) => {
   const id = useParams().id;
-  const content = json.find((j) => j.id === id);
+  const content = games.find((game) => game.id === id);
 
   const [cards, setCards] = useState(generateCards());
   const [flippedIndices, setFlippedIndices] = useState([]);
