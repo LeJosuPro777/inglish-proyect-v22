@@ -11,7 +11,8 @@
 }
 
 .title-content {
-  font-size: 2.25rem;
+  margin-top: 2rem;
+  font-size: 1.65rem;
   color: #eee;
   text-shadow: 2px 2px 2px #000;
 }
@@ -20,7 +21,8 @@
   flex-flow: column;
   justify-content: center;
   width: 35dvw;
-  height: 80dvh;
+  height: 40dvh;
+  margin-bottom: 3rem;
 }
 .text-content {
   font-size: 1.25rem;
@@ -31,8 +33,5 @@ a {
 }
 .image-preview {
   border-radius: 25px;
-  width: 30dvw;
-  height: 30dvh;
   align-self: center;
-  margin-bottom: 3rem;
 }

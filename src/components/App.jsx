@@ -44,9 +44,9 @@ export const App = () => {
           <Route path="/" element={<Index />} />
           <Route path="/papus-pros-members" element={<PapusPros />}/>
           <Route path="/memory" element={<GameContent contenido={memoramaContentJSON}/>} />
-          {/* <Route path="/quiz" element={<GameContent contenido={quizContentJSON}/>} /> */}
+          <Route path="/quiz" element={<GameContent contenido={quizContentJSON}/>} />
           <Route path="/hangman" element={<BackToMe />} />
-          <Route path="/memory/:id" element={<MemoryGame json={memoryContent}/>}/>
+          <Route path="/memory/:id" element={<MemoryGame games={memoryContent}/>}/>
         </Routes>
         </div>
       </Router>
