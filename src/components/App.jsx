@@ -1,5 +1,5 @@
 import "../styles/App.css";
-import logoTeam from "../../public/PapusProLogo.jpeg";
+import logoTeam from "/PapusProLogo.jpeg";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Index } from "./Index";
@@ -45,10 +45,11 @@ export const App = () => {
           <Route path="/papus-pros-members" element={<PapusPros />}/>
           <Route path="/memory" element={<GameContent contenido={memoramaContentJSON}/>} />
           <Route path="/quiz" element={<GameContent contenido={quizContentJSON}/>} />
-          <Route path="/hangman" element={<BackToMe />} />
+          <Route path="/hangman" element={<></>} />
           <Route path="/memory/:id" element={<MemoryGame games={memoryContent}/>}/>
         </Routes>
         </div>
+      <BackToMe></BackToMe>
       </Router>
     </>
   );

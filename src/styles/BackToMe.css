@@ -1,0 +1,18 @@
+.back2me {
+  color: #eee;
+  background: #111;
+  padding: 1rem;
+  border-radius: 25px;
+  transition: box-shadow ease-in-out .5s;
+  border: 2px solid #333;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  &:hover {
+    box-shadow: .25rem .25rem .25rem #333;
+  }
+  font-size: 2rem;
+}
+.back2me-image {
+  filter: invert(1);
+}

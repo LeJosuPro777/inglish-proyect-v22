@@ -23,7 +23,7 @@
   /* background: linear-gradient(90deg, #e81c0e, #570904); */
   background: linear-gradient(90deg, #000, #111);
   overflow-y: auto;
-    display: flex;
+  display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
@@ -35,10 +35,9 @@
     p {
       font-size: 1.25em;
       color: #ccc;
-      text-shadow: 0px 0px 2px rgba(0, 0, 0, .78);
+      text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.78);
     }
   }
-
 }
 .title {
   color: #ddd;
@@ -48,7 +47,7 @@
   color: #ddd;
   font-size: 2em;
 }
-.main-content article  {
+.main-content article {
   width: 50%;
 }
 .main-content figure {
@@ -57,7 +56,7 @@
 
 .teacher {
   width: 100%;
-  filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, .78));
+  filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.78));
 }
 .sidebar {
   color: #ccc;
@@ -81,7 +80,7 @@
       all: unset;
       cursor: pointer;
     }
-   .team-logo {
+    .team-logo {
       width: 180px;
       height: 180px;
       border-radius: 99%;
@@ -127,4 +126,26 @@
     background: #333;
   }
   font-size: 1.3em;
+}
+@media (max-width: 700px) {
+  .back2me {
+  display: block;
+
+  }
+  html {
+    font-size: 70%;
+  }
+  .container {
+    display: block;
+  }
+  .main-content {
+    background: #111;
+  }
+  /* .memoryGame {
+    grid-template-columns: repeat(2, 50px);
+  }
+  .card {
+    width: 50px;
+    height: 50px;
+  } */
 }

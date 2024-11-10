@@ -18,7 +18,7 @@
 }
 .content {
   display: flex;
-  flex-flow: column;
+  flex-flow: column wrap;
   justify-content: center;
   width: 35dvw;
   height: 40dvh;
@@ -34,4 +34,14 @@ a {
 .image-preview {
   border-radius: 25px;
   align-self: center;
+}
+@media only screen and (device-width: 390px) and (device-height: 844px) and (orientation: portrait),
+only screen and (device-width: 844px) and (device-height: 390px) and (orientation: landscape)  {
+  .content {
+    width: 90dvw;
+    height: 50dvh;
+  }
+  .image-preview {
+    width: 100%;
+  }
 }
