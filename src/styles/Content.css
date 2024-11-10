@@ -35,8 +35,7 @@ a {
   border-radius: 25px;
   align-self: center;
 }
-@media only screen and (device-width: 390px) and (device-height: 844px) and (orientation: portrait),
-only screen and (device-width: 844px) and (device-height: 390px) and (orientation: landscape)  {
+@media (max-width: 700px) {
   .content {
     width: 90dvw;
     height: 50dvh;
