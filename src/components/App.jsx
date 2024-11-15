@@ -9,8 +9,11 @@ import {MemoryGame} from "./MemoryGame";
 import memoramaContentJSON from "../content-jsons/memo-links.json"
 import quizContentJSON from "../content-jsons/quiz-links.json"
 import memoryContent from "../content-jsons/memoramaContent.json"
+import quizQuestions from "../content-jsons/contenidoQuestion.json"
+import quizAnwsers from "../content-jsons/contenidoRespuestas.json"
 import { PapusPros } from "./PapusPros";
 import { BackToMe } from "./BackToMe";
+import { Quiz } from "./Quiz";
 
 export const App = () => {
   return (
@@ -47,6 +50,7 @@ export const App = () => {
           <Route path="/quiz" element={<GameContent contenido={quizContentJSON}/>} />
           <Route path="/hangman" element={<></>} />
           <Route path="/memory/:id" element={<MemoryGame games={memoryContent}/>}/>
+          <Route path="/quiz/:id" element={<Quiz quesitonsJSON={quizQuestions} answersJSON={quizAnwsers}/>}/>
         </Routes>
         </div>
       <BackToMe></BackToMe>

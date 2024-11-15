@@ -18,7 +18,7 @@
 }
 .content {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
   width: 35dvw;
   height: 40dvh;
@@ -26,6 +26,7 @@
 }
 .text-content {
   font-size: 1.25rem;
+  color: #eee;
 }
 a {
   color: inherit;

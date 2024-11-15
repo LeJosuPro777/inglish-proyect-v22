@@ -1,10 +1,11 @@
 import { useState } from "react";
-import '../styles/components/drag_drop.css'
-export const Quiz = ({quesitons, answers}) => {
+import '../styles/drag_drop.css'
+export const Quiz = ({quesitonsJSON, answersJSON}) => {
+  const id = useParams().id;
+  const content = games.find((game) => game.id === id);
+  const [questions, setQuestions] = useState(quesitonsJSON);
 
-  const [questions, setQuestions] = useState(quesitons);
-
-  const [words, setWords] = useState(answers);
+  const [words, setWords] = useState(answersJSON);
 
   const getList = (list) => {
     return words.filter(item => item.list === list);
@@ -109,7 +110,7 @@ export const Quiz = ({quesitons, answers}) => {
                 <p className="body1">{item.body}</p>
                 
                 {item.wordAssigned ? (
-                  <div className="answers">
+                  <div className="answersJSON">
                   <p>{item.wordAssigned.body}</p>
                   <button onClick={(evt) => returnToWords(evt, item.id)}>Return</button>
                 </div>
