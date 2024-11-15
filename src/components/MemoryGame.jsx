@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import {Card} from "./Card";
 import { useParams } from "react-router-dom";
-
 export const MemoryGame = ({ games }) => {
   const id = useParams().id;
   const content = games.find((game) => game.id === id);
@@ -34,13 +33,13 @@ export const MemoryGame = ({ games }) => {
     }
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (flippedIndices.length === 2) {
       const [firstIndex, secondIndex] = flippedIndices;
       if (cards[firstIndex] === cards[secondIndex]) {
         setMatchedIndices((prev) => [...prev, firstIndex, secondIndex]);
       }
-      setTimeout(() => setFlippedIndices([]), 1000);
+      setTimeout(() => setFlippedIndices([]), 750);
     }
   }, [flippedIndices, cards]);
 
@@ -51,14 +50,10 @@ export const MemoryGame = ({ games }) => {
           key={index}
           value={value}
           index={index}
-          isFlipped={
-            flippedIndices.includes(index) || matchedIndices.includes(index)
-          }
+          isFlipped={flippedIndices.includes(index) || matchedIndices.includes(index)}
           onClick={() => handleCardClick(index)}
         />
       ))}
     </div>
   );
 }
-
-export default MemoryGame;
