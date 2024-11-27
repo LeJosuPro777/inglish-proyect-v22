@@ -4,5 +4,5 @@ export const PapusPros = () => {
     <>
       <h1>EN PROCESO DE CONSTRUCCION 😀</h1>
     </>
-  )
-}
+  );
+};

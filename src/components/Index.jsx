@@ -17,14 +17,14 @@ export const Index = () => {
           acquisition!
         </p>
       </article>
-        <figure>
-          <img
-            src="https://www.teachingchannel.com/wp-content/uploads/2023/01/img-hero.png"
-            alt=""
-            className="teacher"
-          />
-          <figcaption></figcaption>
-        </figure>
+      <figure>
+        <img
+          src="https://www.teachingchannel.com/wp-content/uploads/2023/01/img-hero.png"
+          alt=""
+          className="teacher"
+        />
+        <figcaption></figcaption>
+      </figure>
     </>
   );
-}
+};

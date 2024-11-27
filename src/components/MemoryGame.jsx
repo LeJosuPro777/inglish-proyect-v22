@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import {Card} from "./Card";
+import { Card } from "./Card";
 import { useParams } from "react-router-dom";
 export const MemoryGame = ({ games }) => {
-  const id = useParams().id;
-  const content = games.find((game) => game.id === id);
-
+  const id = useParams().id;// usamos el hook useParams para conseguir el id del path y se lo asignamos a una constante
+  const content = games.find((game) => game.id === id); //como el componente recibe todo el JSON de la DB como prop tenemos que hacer una find para que nos devuelva solo el juego que queremos renderizar
+  
   const [cards, setCards] = useState(generateCards());
   const [flippedIndices, setFlippedIndices] = useState([]);
   const [matchedIndices, setMatchedIndices] = useState([]);
@@ -50,10 +50,12 @@ export const MemoryGame = ({ games }) => {
           key={index}
           value={value}
           index={index}
-          isFlipped={flippedIndices.includes(index) || matchedIndices.includes(index)}
+          isFlipped={
+            flippedIndices.includes(index) || matchedIndices.includes(index)
+          }
           onClick={() => handleCardClick(index)}
         />
       ))}
     </div>
   );
-}
+};

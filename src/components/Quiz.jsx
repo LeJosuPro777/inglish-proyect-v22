@@ -1,6 +1,6 @@
 import { useState } from "react";
-import '../styles/drag_drop.css'
-export const Quiz = ({quesitonsJSON, answersJSON}) => {
+import "../styles/drag_drop.css";
+export const Quiz = ({ quesitonsJSON, answersJSON }) => {
   const id = useParams().id;
   const content = games.find((game) => game.id === id);
   const [questions, setQuestions] = useState(quesitonsJSON);
@@ -8,23 +8,23 @@ export const Quiz = ({quesitonsJSON, answersJSON}) => {
   const [words, setWords] = useState(answersJSON);
 
   const getList = (list) => {
-    return words.filter(item => item.list === list);
-  }
+    return words.filter((item) => item.list === list);
+  };
 
   const startDrag = (evt, item) => {
-    evt.dataTransfer.setData('itemId', item.id);
-  }
+    evt.dataTransfer.setData("itemId", item.id);
+  };
 
   const dragginOver = (evt) => {
     evt.preventDefault();
-  }
+  };
 
   const onDrop = (evt, questionId) => {
-    const itemID = evt.dataTransfer.getData('itemId');
-    const item = words.find(item => item.id == itemID);
-    
+    const itemID = evt.dataTransfer.getData("itemId");
+    const item = words.find((item) => item.id == itemID);
+
     // Encontrar la pregunta donde se está soltando
-    const question = questions.find(q => q.id === questionId);
+    const question = questions.find((q) => q.id === questionId);
 
     // no permitir poner otra
     if (question.wordAssigned) {
@@ -35,11 +35,13 @@ export const Quiz = ({quesitonsJSON, answersJSON}) => {
     question.wordAssigned = item;
 
     // Actualizar el estado de las preguntas
-    const newQuestions = questions.map(q => q.id === questionId ? question : q);
+    const newQuestions = questions.map((q) =>
+      q.id === questionId ? question : q
+    );
     setQuestions(newQuestions);
 
     // Actualizar el estado
-    const newWords = words.map(word => {
+    const newWords = words.map((word) => {
       if (word.id === item.id) {
         return { ...word, list: 2 }; // Cambiar de lista
       }
@@ -47,15 +49,15 @@ export const Quiz = ({quesitonsJSON, answersJSON}) => {
     });
 
     setWords(newWords);
-  }
+  };
 
   const returnToWords = (evt, questionId) => {
     // Mover el elemento de vuelta a la columna 1
-    const question = questions.find(q => q.id === questionId);
+    const question = questions.find((q) => q.id === questionId);
     if (question.wordAssigned) {
       const wordId = question.wordAssigned.id;
 
-      const newWords = words.map(word => {
+      const newWords = words.map((word) => {
         if (word.id === wordId) {
           return { ...word, list: 1 }; // Volver la palabra a la columna 1
         }
@@ -65,18 +67,21 @@ export const Quiz = ({quesitonsJSON, answersJSON}) => {
       setWords(newWords);
 
       // Quitar la palabra
-      const newQuestions = questions.map(q => q.id === questionId ? { ...q, wordAssigned: null } : q);
+      const newQuestions = questions.map((q) =>
+        q.id === questionId ? { ...q, wordAssigned: null } : q
+      );
       setQuestions(newQuestions);
     }
-  }
+  };
 
   const getBackgroundColor = (question) => {
     if (!question.wordAssigned) {
       return "white"; // Sin asignar palabra
     }
-    return question.wordAssigned.id === question.correctAnswerId ? "#A5D6A7" : "#F5CDD2";
+    return question.wordAssigned.id === question.correctAnswerId
+      ? "#A5D6A7"
+      : "#F5CDD2";
   };
-
 
   return (
     <>
@@ -86,13 +91,21 @@ export const Quiz = ({quesitonsJSON, answersJSON}) => {
 
       <div className="drag-and-drop">
         <div className="colum colum-1">
-          <h3 className="random-words">
-            Random words
-          </h3>
+          <h3 className="random-words">Random words</h3>
 
-          <div className="dd-zone" droppable="true" onDragOver={(evt => dragginOver(evt))} onDrop={(evt => onDrop(evt, 1))}>
-            {getList(1).map(item => (
-              <div className="dd-element" key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
+          <div
+            className="dd-zone"
+            droppable="true"
+            onDragOver={(evt) => dragginOver(evt)}
+            onDrop={(evt) => onDrop(evt, 1)}
+          >
+            {getList(1).map((item) => (
+              <div
+                className="dd-element"
+                key={item.id}
+                draggable
+                onDragStart={(evt) => startDrag(evt, item)}
+              >
                 <p className="body">{item.body}</p>
               </div>
             ))}
@@ -100,28 +113,33 @@ export const Quiz = ({quesitonsJSON, answersJSON}) => {
         </div>
 
         <div className="colum colum-2">
-          <h3 className="random-words">
-            Questions
-          </h3>
+          <h3 className="random-words">Questions</h3>
 
           <div className="question-zone">
             {questions.map((item) => (
-              <div key={item.id} className="dd-elementQ" style={{backgroundColor: getBackgroundColor(item)}} droppable="true" onDragOver={(evt => dragginOver(evt))} onDrop={(evt => onDrop(evt, item.id))}>
+              <div
+                key={item.id}
+                className="dd-elementQ"
+                style={{ backgroundColor: getBackgroundColor(item) }}
+                droppable="true"
+                onDragOver={(evt) => dragginOver(evt)}
+                onDrop={(evt) => onDrop(evt, item.id)}
+              >
                 <p className="body1">{item.body}</p>
-                
+
                 {item.wordAssigned ? (
                   <div className="answersJSON">
-                  <p>{item.wordAssigned.body}</p>
-                  <button onClick={(evt) => returnToWords(evt, item.id)}>Return</button>
-                </div>
-              ) : null}
-            </div>
+                    <p>{item.wordAssigned.body}</p>
+                    <button onClick={(evt) => returnToWords(evt, item.id)}>
+                      Return
+                    </button>
+                  </div>
+                ) : null}
+              </div>
             ))}
           </div>
         </div>
       </div>
     </>
   );
-}
-
-
+};

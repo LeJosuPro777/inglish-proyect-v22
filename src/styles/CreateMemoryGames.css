@@ -1,6 +1,77 @@
+/* Estilos generales para el formulario */
 .formulario {
-  input {
-    color: #000;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #444;
+}
 
+.formulario input,
+.formulario button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #000;
+  &:hover {
+    background-color: #ccc;
+    cursor: pointer;
   }
+}
+
+.formulario h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la alerta en toda la pantalla */
+.alerta {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.alert-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  max-width: 80%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+.alert-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.alert-close {
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: #721c24;
+  cursor: pointer;
+  position: absolute;
+  font-size: 4rem;
+  top: 2dvh;
+  right: 2dvw;
+}
+
+.alert-close:hover {
+  color: #f5c6cb;
 }
