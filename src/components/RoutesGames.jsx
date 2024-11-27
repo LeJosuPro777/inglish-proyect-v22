@@ -38,9 +38,9 @@ export const GameContentRoutes = ({memoryContent}) => {
             <Link className="link" to={"/hangman"}>
               Hangman
             </Link>
-            <Link className="link" to={"/create-new-game"}>hola</Link>
           </div>
         </nav>
+            <Link className="noclass" to={"/create-new-game"}>XDDD</Link>
       </div>
 
       <div className="main-content">

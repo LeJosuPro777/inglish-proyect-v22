@@ -150,3 +150,7 @@
     height: 50px;
   } */
 }
+
+.noclass {
+  display: none;
+}
