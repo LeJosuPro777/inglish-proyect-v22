@@ -60,7 +60,7 @@ export const GameContentRoutes = ({memoryContent}) => {
             element={<MemoryGame key={memoryContent.id} games={memoryContent} />}
           />
           <Route path="/quiz/:id" element={<div>something</div>} />
-          <Route path="create-new-game" element={<CreateMemoryGames />} />
+          <Route path="/create-new-game" element={<CreateMemoryGames />} />
         </Routes>
       </div>
 
