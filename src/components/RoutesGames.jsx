@@ -61,7 +61,7 @@ export const GameContentRoutes = ({memoryContent}) => {
             path="/verbs"
             element={<Verbs />}
           />
-          <Route path="/hangman" element={<WhatsAppButton />} />
+          {/* <Route path="/hangman" element={<WhatsAppButton />} /> */}
           <Route
             path="/memory/:id" //en el path le pasas el id por parametro que lo va a recibir en el componente memoryGame
             element={<MemoryGame key={memoryContent.id} games={memoryContent} />}
