@@ -7,6 +7,8 @@ import { Index } from "./Index";
 import { BackToMe } from "./BackToMe";
 import logoTeam from "/PapusProLogo.jpeg";
 import WhatsAppButton from "./WhatsappButton";
+import Check from "./check";
+import Verbs from "./Verbs";
 
 
 export const GameContentRoutes = ({memoryContent}) => {
@@ -32,11 +34,11 @@ export const GameContentRoutes = ({memoryContent}) => {
             <Link className="link" to={"/memory"}>
               Memory
             </Link>
-            <Link className="link" to={"/quiz"}>
-              Quiz
+            <Link className="link" to={"/checkbox"}>
+              Check Box
             </Link>
-            <Link className="link" to={"/hangman"}>
-              Hangman
+            <Link className="link" to={"/verbs"}>
+              Verbs
             </Link>
             <Link className="link" to={"/create-new-game"}>CreateMemoryGames</Link>
           </div>
@@ -52,8 +54,12 @@ export const GameContentRoutes = ({memoryContent}) => {
             element={<GameContent contenido={memoryContent} />}
           />
           <Route
-            path="/quiz"
-            element={<GameContent contenido={memoryContent} />}
+            path="/checkbox"
+            element={<Check />}
+          />
+          <Route
+            path="/verbs"
+            element={<Verbs />}
           />
           <Route path="/hangman" element={<WhatsAppButton />} />
           <Route

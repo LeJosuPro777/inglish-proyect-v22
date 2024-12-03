@@ -1,0 +1,19 @@
+{
+  "uno": [
+    { "body": "where is his house?", "correctOption": 0},
+    { "body": "what prefesion is the phater?", "correctOption": 1},
+    { "body": "who is very strong?", "correctOption": 1}
+  ],
+
+  "dos": [
+    { "body": "Where travel Stephanie", "correctOption": 2},
+    { "body": "How many stars does the Hollywood landmark have?", "correctOption": 1},
+    { "body": "what a chance to visit Stephanie had", "correctOption": 0}
+  ],
+
+  "tres": [
+    { "body": "Why did more soldiers die?", "correctOption": 1},
+    { "body": "When did this pandemic start?", "correctOption": 2},
+    { "body": "What contributed to the devastating mortality figures?", "correctOption":0}
+  ]
+}

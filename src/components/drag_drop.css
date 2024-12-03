@@ -1,0 +1,117 @@
+h3 {
+  color: #000;
+}
+.body1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.colum {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  background-color: #eee;
+  min-width: 15rem;
+  min-height: 45em;
+  border-radius: 10px;
+  border: solid rgb(28, 28, 28) 1px;
+  border-top: solid rgb(141, 22, 174) 5px;
+  box-shadow: 5px 8px 20px rgba(215, 134, 255, 0.837);
+}
+
+.colum-1{
+  margin: auto;
+  width: 35rem;
+}
+
+.colum-2 {
+  min-height: 45em;
+  width: 45rem;
+  border-top: solid rgb(30, 104, 242) 5px;
+  box-shadow: 5px 8px 20px rgba(125, 217, 250, 0.837);
+}
+
+.drag-and-drop {
+  display: flex;
+  grid-gap: 40px;
+}
+
+.dd-zone{
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-gap: 16px;
+  height: 100%;
+}
+
+.dd-zone1 {
+  grid-gap: 16px;
+  height: 100%;
+  flex-direction: column;
+  margin: auto;
+  width: min-content;
+}
+
+.question-zone {
+  margin-top: 2rem;
+}
+
+.dd-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: #fff;
+  width: 5rem;
+  height: 3rem;
+  border-radius: 5px;
+  transition: background-color 0.2s ease; 
+}
+
+.dd-element:hover {
+  cursor: grab;
+  background-color: #f3f3f3; 
+}
+
+.dd-elementQ {
+  position: relative; 
+  min-height: 3rem; 
+  background-color: #f9f9f9;
+  border: 1px solid #bbb; 
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  padding: 1rem;
+}
+
+.dropped-word {
+  font-weight: 800;
+  color: #a526d7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: grab;
+  z-index: 10; 
+}
+
+.dropped-word:hover {
+  cursor: pointer;
+}
+
+.dd-element.active {
+  background-color: #dcdcdc; 
+  border: 2px solid #a526d7;
+}
+
+p{
+  font-weight: 800;
+  color: #a526d7;
+}
+

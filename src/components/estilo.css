@@ -1,0 +1,57 @@
+.text{
+  font-size: large;
+  margin-bottom: 10dvh;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.subtitle{
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(200, 6, 6);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.picture {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 5px;
+}
+
+.picture img {
+  display: flex;
+  gap: 20px; 
+  flex-wrap: wrap;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center; 
+}
+
+.question {
+  font-weight: 500;
+  list-style: decimal;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.checkbox{
+  display:flex;
+  flex-wrap: wrap;
+}
