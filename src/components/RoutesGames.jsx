@@ -7,7 +7,7 @@ import { Index } from "./Index";
 import { BackToMe } from "./BackToMe";
 import logoTeam from "/PapusProLogo.jpeg";
 import WhatsAppButton from "./WhatsappButton";
-import Check from "./check";
+import {Check} from "./Check";
 import Verbs from "./Verbs";
 
 

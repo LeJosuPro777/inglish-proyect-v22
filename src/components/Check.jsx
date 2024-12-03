@@ -152,5 +152,3 @@ export const Check = ({textJSON, questionJSON}) => {
     </>
   );
 }
-
-export default Check;
